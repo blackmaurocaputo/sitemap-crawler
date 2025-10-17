@@ -1,4 +1,4 @@
-# 🕷️ Finder - Sitemap Web Crawler
+# 🕷️ Sitemap Crawler - Sitemap Web Crawler
 
 Un crawler leggero e modulare che esplora il web attraverso le sitemap dei siti, indicizzando automaticamente migliaia di URL in modo organizzato.
 
@@ -20,7 +20,7 @@ Un crawler leggero e modulare che esplora il web attraverso le sitemap dei siti,
 
 ## 🎯 Descrizione
 
-**Finder** è un web crawler basato su sitemap che permette di:
+**Sitemap Crawler** è un web crawler basato su sitemap che permette di:
 - Scoprire automaticamente URL da sitemap XML
 - Indicizzare i risultati in modo strutturato
 - Evitare duplicati e gestire errori
@@ -59,7 +59,7 @@ Ideale per:
 ## 📂 Struttura del Progetto
 
 ```
-finder/
+sitemap-crawler/
 ├── index.js                 # Entry point principale
 ├── core/                    # Moduli core
 │   ├── fetcher.js          # Download sitemap
@@ -86,7 +86,7 @@ finder/
 ```bash
 # Clone repository
 git clone https://github.com/blackmaurocaputo/sitemap-crawler.git
-cd scrapling-sitemap
+cd sitemap-crawler
 
 # Installa dipendenze (se necessario)
 npm install
